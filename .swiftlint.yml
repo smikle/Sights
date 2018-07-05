@@ -1,0 +1,16 @@
+excluded: 
+  - Pods
+
+warning_threshold: 15
+
+identifier_name:
+ min_length: 
+   warning: 2
+   error: 1
+    
+disabled_rules:
+#  - colon
+ - line_length
+ - mark
+ - nesting
+ - trailing_whitespace
